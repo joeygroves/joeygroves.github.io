@@ -5,6 +5,9 @@ function App() {
 
   return (
     <>
+    <div className="app">
+      <h1 className="font-poppins text-3xl">Hello World!</h1>
+    </div>
     </>
   )
 }
