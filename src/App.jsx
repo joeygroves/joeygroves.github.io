@@ -1,14 +1,13 @@
-import { useState } from 'react'
+import NavBar from "./navigation/NavBar";
+import { useState } from "react";
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
     <div className="app">
-      <h1 className="font-poppins text-3xl">Hello World!</h1>
+      <NavBar />
     </div>
-    </>
   )
 }
 
