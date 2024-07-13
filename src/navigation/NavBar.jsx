@@ -61,6 +61,20 @@ const NavBar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                         <img src="../src/assets/menu-icon.svg"  alt="menu-icon"/>
                     </button>
                 )}
+
+                {/* Mobile Menu Popup */}
+                {!isAboveSmallScreens && isMenuToggled && (
+                    <div className="fixed right-0 bottom-0 h-full bg-blue w-[250px]">
+                        {/* Close Icon */}
+                        <div className="flex justify-end p-12">
+                            <button onClick={() => setIsMenuToggled(!isMenuToggled)}>
+                                <img src="../src/assets/menu-close-icon.svg" alt="menu-close-icon" />
+                            </button>
+                        </div>
+
+                        {/* Mobile Menu Items */}
+                    </div>
+                )}
             </div>
         </nav>
     )
