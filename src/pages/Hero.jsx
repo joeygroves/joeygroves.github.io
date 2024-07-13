@@ -1,5 +1,6 @@
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import useMediaQuery from "../hooks/useMediaQuery";
+import SocialMediaIcons from "../components/SocialMediaIcons";
 
 const Hero = ({ setSelectedPage }) => {
     const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
@@ -37,7 +38,9 @@ const Hero = ({ setSelectedPage }) => {
                         a Front-End React Developer and University of Leicester Comp Sci graduate.
                     </p>
                 </div>
-                
+                <div>
+                    <SocialMediaIcons />
+                </div>
             </div>
         </section>
     )
