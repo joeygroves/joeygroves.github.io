@@ -32,6 +32,26 @@ const NavBar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                             selectedPage={selectedPage}
                             setSelectedPage={setSelectedPage}
                         />
+                        <Link
+                            page="About"
+                            selectedPage={selectedPage}
+                            setSelectedPage={setSelectedPage}
+                        />
+                        <Link
+                            page="Projects"
+                            selectedPage={selectedPage}
+                            setSelectedPage={setSelectedPage}
+                        />
+                        <Link
+                            page="Etc."
+                            selectedPage={selectedPage}
+                            setSelectedPage={setSelectedPage}
+                        />
+                        <Link
+                            page="Contact"
+                            selectedPage={selectedPage}
+                            setSelectedPage={setSelectedPage}
+                        />
                     </div>
                 ) : (
                     <button>
