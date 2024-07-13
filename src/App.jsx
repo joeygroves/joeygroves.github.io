@@ -17,18 +17,38 @@ function App() {
         setSelectedPage={setSelectedPage}
       />
 
-      <div className="w-5/6 mx-auto md:h-full">
+      <div className="w-full md:h-full bg-light-grey">
         {isAboveMediumScreens && (
           <DotGroup
             selectedPage={selectedPage}
             setSelectedPage={setSelectedPage}
           />
         )}
-        <div>
+        <div className="w-5/6 mx-auto">
           <Hero setSelectedPage={setSelectedPage} />
         </div>
-  
       </div>
+
+      <div className="w-5/6 mx-auto">
+          {/** ABOUT PAGE */}
+      </div>
+
+      <div className="w-full bg-light-grey">
+        <div className="w-5/6 mx-auto">
+          {/** CODING PROJECTS PAGE */}
+        </div>
+      </div>
+
+      <div className="w-5/6 mx-auto">
+          {/** CREATIVE PROJECTS PAGE */}
+      </div>
+
+      <div className="w-full bg-light-grey">
+        <div className="w-5/6 mx-auto">
+          {/** CONTACT PAGE */}
+        </div>
+      </div>
+
     </div>
   )
 }
