@@ -1,4 +1,5 @@
 import NavBar from "./navigation/NavBar";
+import Hero from "./pages/Hero";
 import { useState } from "react";
 import useMediaQuery from "./hooks/useMediaQuery";
 import DotGroup from "./components/DotGroup";
@@ -23,6 +24,9 @@ function App() {
             setSelectedPage={setSelectedPage}
           />
         )}
+        <div>
+          <Hero setSelectedPage={setSelectedPage} />
+        </div>
   
       </div>
     </div>
