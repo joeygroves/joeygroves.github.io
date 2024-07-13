@@ -29,12 +29,15 @@ const Hero = ({ setSelectedPage }) => {
 
             {/* MAIN SECTION */}
             <div className="z-30 basis-3/5 mt-12 md:mt-32 md:ml-32">
-                <p className="text-6xl text-deep-blue font-poppins font-bold z-10 text-center md:text-start">
-                    Hello! 👋🏼 I'm Joe
-                </p>
-                <p className="mt-6 mb-7 text-lg text-center text-grey font-poppins font-medium md:text-start">
-                    a Front-End React Developer and University of Leicester Comp Sci graduate.
-                </p>
+                <div>
+                    <p className="text-6xl text-deep-blue font-poppins font-bold z-10 text-center md:text-start">
+                        Hello! 👋🏼 I'm Joe
+                    </p>
+                    <p className="mt-6 mb-7 text-lg text-center text-grey font-poppins font-medium md:text-start">
+                        a Front-End React Developer and University of Leicester Comp Sci graduate.
+                    </p>
+                </div>
+                
             </div>
         </section>
     )
