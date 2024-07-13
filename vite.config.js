@@ -10,4 +10,5 @@ export default defineConfig({
       plugins: [tailwindcss],
     },
   },
+  base: "/joeygroves.github.io/",
 });
