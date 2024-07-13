@@ -73,6 +73,33 @@ const NavBar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                         </div>
 
                         {/* Mobile Menu Items */}
+                        <div className="flex flex-col gap-8 ml-[33%] font-poppins text-2xl font-semibold text-deep-blue">
+                            <Link
+                                page="Home"
+                                selectedPage={selectedPage}
+                                setSelectedPage={setSelectedPage}
+                            />
+                            <Link
+                                page="About"
+                                selectedPage={selectedPage}
+                                setSelectedPage={setSelectedPage}
+                            />
+                            <Link
+                                page="Projects"
+                                selectedPage={selectedPage}
+                                setSelectedPage={setSelectedPage}
+                            />
+                            <Link
+                                page="Etc."
+                                selectedPage={selectedPage}
+                                setSelectedPage={setSelectedPage}
+                            />
+                            <Link
+                                page="Contact"
+                                selectedPage={selectedPage}
+                                setSelectedPage={setSelectedPage}
+                            />
+                        </div>
                     </div>
                 )}
             </div>
