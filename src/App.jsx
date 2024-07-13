@@ -1,5 +1,6 @@
 import NavBar from "./navigation/NavBar";
 import Hero from "./pages/Hero";
+import About from "./pages/About";
 import { useState } from "react";
 import useMediaQuery from "./hooks/useMediaQuery";
 import DotGroup from "./components/DotGroup";
@@ -30,7 +31,7 @@ function App() {
       </div>
 
       <div className="w-5/6 mx-auto">
-          {/** ABOUT PAGE */}
+          <About />
       </div>
 
       <div className="w-full bg-light-grey">
