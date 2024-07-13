@@ -7,10 +7,10 @@ const Hero = ({ setSelectedPage }) => {
     return (
         <section
             id="home"
-            className="md:flex md:justify-between md:items-center md:h-full gap-16 py-10 bg-light-grey"
+            className="md:flex md:justify-between md:items-center md:h-full gap-16 py-10"
         >
             <div className="z-30 basis-2/5 mt-12 md:mt-32">
-                <p>Hello World!</p>
+                <p className="text-8xl">Hello World!</p>
             </div>
         </section>
     )
