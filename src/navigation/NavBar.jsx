@@ -26,7 +26,7 @@ const NavBar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                 <h4 className="font-poppins text-2xl text-deep-blue font-bold">Joe Groves</h4>
                 {/* DESKTOP NAV*/}
                 {isAboveSmallScreens ? (
-                    <div className="flex justify-between gap-16 font-poppins text-sm font-semibold">
+                    <div className="flex justify-between gap-16 font-poppins text-md font-semibold">
                         <Link
                             page="Home"
                             selectedPage={selectedPage}
