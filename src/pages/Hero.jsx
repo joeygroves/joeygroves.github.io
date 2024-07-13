@@ -10,7 +10,7 @@ const Hero = ({ setSelectedPage }) => {
             className="md:flex md:justify-between md:items-center md:h-full gap-16 py-10"
         >
             {/* IMAGE SECTION */}
-            <div className="md:order-2 flex justify-center basis-3/5 z-10 mt-16 md:mt-32">
+            <div className="md:order-2 flex justify-center basis-2/5 z-10 mt-16 md:mt-32 md:mr-16">
                 {isAboveMediumScreens ? (
                     <img 
                         src="../src/assets/Joey_Standing.png"
@@ -28,8 +28,13 @@ const Hero = ({ setSelectedPage }) => {
             </div>
 
             {/* MAIN SECTION */}
-            <div className="z-30 basis-2/5 mt-12 md:mt-32">
-                <p className="text-8xl">Hello World!</p>
+            <div className="z-30 basis-3/5 mt-12 md:mt-32 md:ml-32">
+                <p className="text-6xl text-deep-blue font-poppins z-10 text-center md:text-start">
+                    Hello! 👋🏼 I'm Joe
+                </p>
+                <p className="mt-6 mb-7 text-lg text-center text-grey font-poppins md:text-start">
+                    a Front-End React Developer and University of Leicester Comp Sci graduate.
+                </p>
             </div>
         </section>
     )
