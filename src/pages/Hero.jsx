@@ -15,14 +15,14 @@ const Hero = ({ setSelectedPage }) => {
                     <img 
                         src="../src/assets/Joey_Standing.png"
                         alt="profile"
-                        className="z-10 w-full max-w-[200px] md:max-w-[300px]"
+                        className="z-10 w-full max-w-[190px] md:max-w-[290px]"
                     />
                 ) : (
                     /* For when it is below medium screens */
                     <img 
                         src="../src/assets/Joey_Standing.png"
                         alt="profile"
-                        className="z-10 w-full max-w-[200px] md:max-w-[300px]"
+                        className="z-10 w-full max-w-[190px] md:max-w-[290px]"
                     />
                 )}
             </div>
