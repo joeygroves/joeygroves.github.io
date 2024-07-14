@@ -26,7 +26,6 @@ function App() {
         )}
         <div 
           className="w-5/6 mx-auto"
-          onViewportEnter={() => setSelectedPage("home")}
         >
           <Hero setSelectedPage={setSelectedPage} />
         </div>
@@ -34,7 +33,6 @@ function App() {
 
       <div 
         className="w-5/6 mx-auto"
-        onViewportEnter={() => setSelectedPage("about")}
       >
           <About />
       </div>
@@ -42,17 +40,20 @@ function App() {
       <div className="w-full bg-light-grey">
         <div 
           className="w-5/6 mx-auto"
-          onViewportEnter={() => setSelectedPage("projects")}
         >
           <Projects />
         </div>
       </div>
 
-      <div className="w-5/6 mx-auto">
+      <div 
+        className="w-5/6 mx-auto"
+      >
           {/** CREATIVE PROJECTS PAGE */}
       </div>
 
-      <div className="w-full bg-light-grey">
+      <div 
+        className="w-full bg-light-grey"
+      >
         <div className="w-5/6 mx-auto">
           {/** CONTACT PAGE */}
         </div>
