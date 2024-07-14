@@ -24,7 +24,7 @@ const About = () => {
                     <br/>
                     In addition to my professional interests, I am deeply passionate about fashion, writing and music. 
                     I have self-published a collection of poetry and prose, designed streetwear clothing, and 
-                    self-produced an album of lo-fi hip hop beats. While in Japan, I joined the Beatlemania club and 
+                    self-produced an album of lo-fi hip hop beats. While studying in Japan, I joined the Beatlemania club and 
                     played live shows in Tokyo with a rock band consisting of Japanese students, further fuelling my 
                     love for music and collaboration.
                     <br/>
@@ -36,20 +36,23 @@ const About = () => {
                 <div className="mt-16 md:mt-0">
                     {isAboveMediumScreens ? (
                         <div
-                        className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10
-                                    before:w-full before:h-full before:border-2 before:border-blue before:z-[-1]"
+                        className="
+                            relative z-0 ml-20 
+                            before:absolute before:-top-10 before:-left-10
+                            before:w-full before:h-full before:border-2 
+                            before:border-blue before:z-[-1]"
                         >
                             <img
-                            alt="about"
-                            className="z-10"
-                            src="../src/assets/about.png"
+                                src="../src/assets/about.png"
+                                alt="about"
+                                className="z-10 hover:filter hover:saturate-200 transition duration-500"
                             />
                         </div>
                     ) : (
-                        <img 
-                            alt="about"
-                            className="z-10"
+                        <img
                             src="../src/assets/about.png"
+                            alt="about"
+                            className="z-10 hover:filter hover:saturate-200 transition duration-500"
                         />
                     )}
                 </div>
