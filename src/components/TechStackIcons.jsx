@@ -1,7 +1,7 @@
 const TechStackIcons = () => {
     return (
         <div className="flex justify-center md:justify-start my-7 gap-5">
-            <div>
+            <div className="flex flex-col justify-center items-center">
                 <img 
                     src="../src/assets/html.svg"
                     alt="html"
@@ -9,7 +9,7 @@ const TechStackIcons = () => {
                 <p className="mt-1 text-center font-poppins font-light text-grey text-sm">HTML</p>
             </div>
 
-            <div>
+            <div className="flex flex-col justify-center items-center">
                 <img 
                     src="../src/assets/css.svg"
                     alt="css"
@@ -17,7 +17,7 @@ const TechStackIcons = () => {
                 <p className="mt-1 text-center font-poppins font-light text-grey text-sm">CSS</p>
             </div>
 
-            <div>
+            <div className="flex flex-col justify-center items-center">
                 <img 
                     src="../src/assets/javascript.svg"
                     alt="javascript"
@@ -26,7 +26,7 @@ const TechStackIcons = () => {
                 <p className="mt-1 text-center font-poppins font-light text-grey text-sm">JavaScript</p>
             </div>
 
-            <div>
+            <div className="flex flex-col justify-center items-center">
                 <img 
                     src="../src/assets/react.svg"
                     alt="react"
@@ -34,7 +34,7 @@ const TechStackIcons = () => {
                 <p className="mt-1 text-center font-poppins font-light text-grey text-sm">React</p>
             </div>
 
-            <div>
+            <div className="flex flex-col justify-center items-center">
                 <img 
                     src="../src/assets/nodejs.svg"
                     alt="node js"
@@ -42,7 +42,7 @@ const TechStackIcons = () => {
                 <p className="mt-1 text-center font-poppins font-light text-grey text-sm">Node.js</p>
             </div>
 
-            <div>
+            <div className="flex flex-col justify-center items-center">
                 <img 
                     src="../src/assets/mongodb.svg"
                     alt="mongodb"
@@ -50,7 +50,7 @@ const TechStackIcons = () => {
                 <p className="mt-1 text-center font-poppins font-light text-grey text-sm">MongoDB</p>
             </div>
 
-            <div>
+            <div className="flex flex-col justify-center items-center">
                 <img 
                     src="../src/assets/tailwind.svg"
                     alt="tailwind css"
@@ -58,7 +58,7 @@ const TechStackIcons = () => {
                 <p className="mt-1 text-center font-poppins font-light text-grey text-sm">Tailwind CSS</p>
             </div>
             
-            <div>
+            <div className="flex flex-col justify-center items-center">
                 <img 
                     src="../src/assets/python.svg"
                     alt="python"
