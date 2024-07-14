@@ -35,10 +35,6 @@ const About = () => {
                     </p>
                 </div>
 
-                <div>
-                    <TechStackIcons />
-                </div>
-
                 <div className="mt-16 md:mt-0">
                     {isAboveMediumScreens ? (
                         <div
@@ -62,6 +58,10 @@ const About = () => {
                         />
                     )}
                 </div>
+            </div>
+
+            <div>
+                <TechStackIcons />
             </div>
         </section>
     )
