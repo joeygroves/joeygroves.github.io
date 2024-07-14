@@ -1,4 +1,5 @@
 import useMediaQuery from '../hooks/useMediaQuery';
+import TechStackIcons from '../components/TechStackIcons';
 
 const About = () => {
     const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
@@ -33,6 +34,11 @@ const About = () => {
                     or simply want to chat over coffee.
                     </p>
                 </div>
+
+                <div>
+                    <TechStackIcons />
+                </div>
+
                 <div className="mt-16 md:mt-0">
                     {isAboveMediumScreens ? (
                         <div
