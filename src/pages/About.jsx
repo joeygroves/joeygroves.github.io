@@ -17,12 +17,6 @@ const About = () => {
                     I thrive in fast-paced environments and enjoy tackling new challenges.
                     <br/>
                     <br/>
-                    During my studies, I spent a year abroad at Waseda University in Japan, 
-                    where I achieved top grades: A+ in Advanced Intelligent Software, 
-                    A+ in Recording Technology, and an A in Information Retrieval. 
-                    This experience enriched my academic journey and expanded my cultural perspective.
-                    <br/>
-                    <br/>
                     My career goal is to secure a role in software development where I can contribute to 
                     impactful projects and continue to grow my technical expertise. I have a robust work ethic 
                     and a strong desire to learn and adapt in dynamic settings.
@@ -38,6 +32,26 @@ const About = () => {
                     Let’s connect if you have an opportunity in mind, need advice on breaking into programming, 
                     or simply want to chat over coffee.
                     </p>
+                </div>
+                <div className="mt-16 md:mt-0">
+                    {isAboveMediumScreens ? (
+                        <div
+                        className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10
+                                    before:w-full before:h-full before:border-2 before:border-blue before:z-[-1]"
+                        >
+                            <img
+                            alt="about"
+                            className="z-10"
+                            src="../src/assets/about.png"
+                            />
+                        </div>
+                    ) : (
+                        <img 
+                            alt="about"
+                            className="z-10"
+                            src="../src/assets/about.png"
+                        />
+                    )}
                 </div>
             </div>
         </section>
