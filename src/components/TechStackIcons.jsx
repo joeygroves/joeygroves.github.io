@@ -55,7 +55,7 @@ const TechStackIcons = () => {
                     src="../src/assets/tailwind.svg"
                     alt="tailwind css"
                 />
-                <p className="mt-1 text-center font-poppins font-light text-grey text-sm">TailwindCSS</p>
+                <p className="mt-1 text-center font-poppins font-light text-grey text-sm">Tailwind CSS</p>
             </div>
             
             <div>
