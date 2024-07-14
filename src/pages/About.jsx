@@ -33,6 +33,12 @@ const About = () => {
                     Let’s connect if you have an opportunity in mind, need advice on breaking into programming, 
                     or simply want to chat over coffee.
                     </p>
+                    
+                    <div className="flex py-2">
+                        <p className="flex items-center font-poppins font-medium text-l text-deep-blue">Tech Stack</p>
+                        <p className="flex items-center font-poppins font-light text-2xl text-grey mx-5">|</p>
+                        <TechStackIcons />
+                    </div> 
                 </div>
 
                 <div className="mt-16 md:mt-0">
@@ -59,11 +65,7 @@ const About = () => {
                     )}
                 </div>
             </div>
-            <div className="flex py-2">
-                        <p className="flex items-center font-poppins font-medium text-l text-deep-blue">Tech Stack</p>
-                        <p className="flex items-center font-poppins font-light text-2xl text-grey mx-5">|</p>
-                        <TechStackIcons />
-            </div> 
+            
         </section>
     )
 }
