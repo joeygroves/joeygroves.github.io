@@ -8,7 +8,7 @@ const About = () => {
         <section id="about" className="pt-10 pb-24">
             <div className="md:flex md:justify-between md:gap-16 mt-32">
                 <div>
-                    <p className='font-poppins font-semibold text-3xl mb-5 text-blue'>
+                    <p className="font-poppins font-semibold text-3xl mb-5 text-blue">
                         ABOUT ME
                     </p>
                     <p className="font-poppins text-grey mb-7">
