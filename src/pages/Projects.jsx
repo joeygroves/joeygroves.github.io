@@ -236,9 +236,8 @@ const Projects = () => {
                             <p 
                                 className="font-poppins text-deep-blue mb-2"
                             >
-                                A simple to-do list web app, for managing and completing tasks.
-                                Designed wireframes and high-fidelity mockups, and a loose user-flow 
-                                using Figma. 
+                                A Python program, based on the popular game: Hangman, which uses basic programming constructs and data types such as functions, 
+                                strings, tuples and lists. As well as, file handling and exceptions.
                             </p>
 
                             <a
@@ -257,11 +256,11 @@ const Projects = () => {
                             <div className="md:mt-0 mt-5 mb-6">
                                 <div className="flex">
                                     <p className="font-poppins text-sm text-deep-blue font-semibold mb-2 mr-8">Technologies</p>
-                                    <p className="font-poppins text-sm text-deep-blue mb-2">React, Express, Node.js, MongoDB, Tailwind CSS, Figma</p>
+                                    <p className="font-poppins text-sm text-deep-blue mb-2">Python</p>
                                 </div>
                                 <div className="flex">
                                     <p className="font-poppins text-sm text-deep-blue font-semibold mb-2 mr-8">Skills</p>
-                                    <p className="font-poppins text-sm text-deep-blue mb-2">Full Stack Web Development, UI Design</p>
+                                    <p className="font-poppins text-sm text-deep-blue mb-2">Python Fundamentals, Pair Programming</p>
                                 </div>
                             </div>
                         </div>
