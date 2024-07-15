@@ -21,9 +21,10 @@ const Projects = () => {
                             <p 
                                 className="font-poppins text-deep-blue mb-2"
                             >
-                                A simple to-do list web app, for managing and completing tasks.
-                                Designed wireframes and high-fidelity mockups, and a loose user-flow 
-                                using Figma. 
+                                A simple to-do list web app, for managing and completing tasks. You can add, delete and 
+                                check-off tasks as completed. Additionally, you can also filter tasks based on their 
+                                completion status. I designed wireframes and high-fidelity mockups from scratch, and a loose user-flow 
+                                using Figma; with a minimalist design in mind.
                             </p>
 
                             <a
@@ -71,9 +72,15 @@ const Projects = () => {
                             <p 
                                 className="font-poppins text-deep-blue mb-2"
                             >
-                                A simple to-do list web app, for managing and completing tasks.
-                                Designed wireframes and high-fidelity mockups, and a loose user-flow 
-                                using Figma. 
+                                In the content space, one of the main problems influencers face when having correspondence with brands and affiliates, 
+                                is having (or lack thereof) a professional space to showcase their past work experience, 
+                                brands they've worked with and testimonials as a result of submitting their deliverables. 
+                                <br/>
+                                <br/>
+                                Here in this project, I set out to work with a succesful influencer 
+                                (amassing 100k subscribers on YouTube plus more followers in other spaces) in designing, 
+                                implementing and deploying a single-page responsive influencer portfolio site - 
+                                which they could send to brands when they reach out.
                             </p>
 
                             <a
@@ -92,7 +99,7 @@ const Projects = () => {
                             <div className="md:mt-0 mt-5 mb-6">
                                 <div className="flex">
                                     <p className="font-poppins text-sm text-deep-blue font-semibold mb-2 mr-8">Technologies</p>
-                                    <p className="font-poppins text-sm text-deep-blue mb-2">React, Tailwind CSS, Figma</p>
+                                    <p className="font-poppins text-sm text-deep-blue mb-2">React, Tailwind CSS, Framer-Motion, Figma</p>
                                 </div>
                                 <div className="flex">
                                     <p className="font-poppins text-sm text-deep-blue font-semibold mb-2 mr-8">Skills</p>
@@ -121,9 +128,11 @@ const Projects = () => {
                             <p 
                                 className="font-poppins text-deep-blue mb-2"
                             >
-                                A simple to-do list web app, for managing and completing tasks.
-                                Designed wireframes and high-fidelity mockups, and a loose user-flow 
-                                using Figma. 
+                                A React weather web app, built by integrating the OpenWeatherMap API. It displays temperatures in 
+                                both Celsius and Fahrenheit. In addition, the app also displays an hourly and weely forecast, as well as 
+                                specific information such as sunrise/sunset, humidity, wind speed, etc.
+                                The theme colour of the web app changes depending on the temperature of the location. It turns blue for 
+                                cooler climates and orange for warmer climates.
                             </p>
 
                             <a
@@ -142,11 +151,11 @@ const Projects = () => {
                             <div className="md:mt-0 mt-5 mb-6">
                                 <div className="flex">
                                     <p className="font-poppins text-sm text-deep-blue font-semibold mb-2 mr-8">Technologies</p>
-                                    <p className="font-poppins text-sm text-deep-blue mb-2">React, Express, Node.js, MongoDB, Tailwind CSS, Figma</p>
+                                    <p className="font-poppins text-sm text-deep-blue mb-2">React, Tailwind CSS, OpenWeatherMap API</p>
                                 </div>
                                 <div className="flex">
                                     <p className="font-poppins text-sm text-deep-blue font-semibold mb-2 mr-8">Skills</p>
-                                    <p className="font-poppins text-sm text-deep-blue mb-2">Full Stack Web Development, UI Design</p>
+                                    <p className="font-poppins text-sm text-deep-blue mb-2">Front End Web Development, UI Design, API Integration</p>
                                 </div>
                             </div>
                         </div>
