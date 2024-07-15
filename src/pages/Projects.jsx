@@ -39,18 +39,32 @@ const Projects = () => {
                                     using Figma; with a minimalist design in mind.
                                 </p>
 
-                                <a
-                                    href="https://github.com/joeygroves/todo-app"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                >
-                                    <button 
-                                        className="my-4 bg-transparent hover:bg-blue text-deep-blue font-semibold 
-                                        hover:text-white transition duration-500 py-2 px-4 border border-deep-blue hover:border-transparent rounded"
+                                <div>
+                                    <a
+                                        href="https://todo-app-rob8.onrender.com/"
+                                        target="_blank"
+                                        rel="noreferrer"
                                     >
-                                        View on GitHub
-                                    </button>
-                                </a>
+                                        <button 
+                                            className="my-4 bg-transparent hover:bg-blue text-deep-blue font-semibold 
+                                            hover:text-white transition duration-500 py-2 px-2 border border-deep-blue hover:border-transparent rounded mr-5"
+                                        >
+                                            Try it here!
+                                        </button>
+                                    </a>
+                                    <a
+                                        href="https://github.com/joeygroves/todo-app"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        <button 
+                                            className="my-4 bg-transparent hover:bg-blue text-deep-blue font-semibold 
+                                            hover:text-white transition duration-500 py-2 px-4 border border-deep-blue hover:border-transparent rounded"
+                                        >
+                                            View on GitHub
+                                        </button>
+                                    </a>
+                                </div>
                                 
                                 <div className="md:mt-0 mt-5 mb-6">
                                     <div className="flex">
@@ -106,18 +120,32 @@ const Projects = () => {
                                     which they could send to brands when they reach out.
                                 </p>
 
-                                <a
-                                    href="https://github.com/joeygroves/ellie-smith-portfolio"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                >
-                                    <button 
-                                        className="my-4 bg-transparent hover:bg-blue text-deep-blue font-semibold 
-                                        hover:text-white transition duration-500 py-2 px-4 border border-deep-blue hover:border-transparent rounded"
+                                <div>
+                                    <a
+                                        href="https://ellie-smith-portfolio.vercel.app/"
+                                        target="_blank"
+                                        rel="noreferrer"
                                     >
-                                        View on GitHub
-                                    </button>
-                                </a>
+                                        <button 
+                                            className="my-4 bg-transparent hover:bg-blue text-deep-blue font-semibold 
+                                            hover:text-white transition duration-500 py-2 px-2 border border-deep-blue hover:border-transparent rounded mr-5"
+                                        >
+                                            Try it here!
+                                        </button>
+                                    </a>
+                                    <a
+                                        href="https://github.com/joeygroves/ellie-smith-portfolio"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        <button 
+                                            className="my-4 bg-transparent hover:bg-blue text-deep-blue font-semibold 
+                                            hover:text-white transition duration-500 py-2 px-4 border border-deep-blue hover:border-transparent rounded"
+                                        >
+                                            View on GitHub
+                                        </button>
+                                    </a>
+                                </div>
                                 
                                 <div className="md:mt-0 mt-5 mb-6">
                                     <div className="flex">
@@ -170,18 +198,32 @@ const Projects = () => {
                                     cooler climates and orange for warmer climates.
                                 </p>
 
-                                <a
-                                    href="https://github.com/joeygroves/react-weather-app"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                >
-                                    <button 
-                                        className="my-4 bg-transparent hover:bg-blue text-deep-blue font-semibold 
-                                        hover:text-white transition duration-500 py-2 px-4 border border-deep-blue hover:border-transparent rounded"
+                                <div>
+                                    <a
+                                        href="https://react-weather-app-joeygroves.vercel.app/"
+                                        target="_blank"
+                                        rel="noreferrer"
                                     >
-                                        View on GitHub
-                                    </button>
-                                </a>
+                                        <button 
+                                            className="my-4 bg-transparent hover:bg-blue text-deep-blue font-semibold 
+                                            hover:text-white transition duration-500 py-2 px-2 border border-deep-blue hover:border-transparent rounded mr-5"
+                                        >
+                                            Try it here!
+                                        </button>
+                                    </a>
+                                    <a
+                                        href="https://github.com/joeygroves/react-weather-app"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        <button 
+                                            className="my-4 bg-transparent hover:bg-blue text-deep-blue font-semibold 
+                                            hover:text-white transition duration-500 py-2 px-4 border border-deep-blue hover:border-transparent rounded"
+                                        >
+                                            View on GitHub
+                                        </button>
+                                    </a>
+                                </div>
                                 
                                 <div className="md:mt-0 mt-5 mb-6">
                                     <div className="flex">
