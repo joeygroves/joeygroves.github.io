@@ -175,14 +175,20 @@ const Projects = () => {
                     <div className="md:flex">
                         <div className="md:flex md:flex-col md: justify-center">
                             <p className="font-poppins font-semibold text-xl text-deep-blue">Leicester City FC Player Scouting App</p>
-                            <p className="font-poppins text-md text-grey mb-4">January 2020 - July 2021</p>
+                            <p className="font-poppins text-md text-grey mb-4">December 2019 - July 2020</p>
 
                             <p 
                                 className="font-poppins text-deep-blue mb-2"
                             >
-                                A simple to-do list web app, for managing and completing tasks.
-                                Designed wireframes and high-fidelity mockups, and a loose user-flow 
-                                using Figma. 
+                                In collaboration with Premier League team, Leicester City FC, we designed and 
+                                implemented a full-stack web application written in React, Node.js 
+                                and MySQL for our second year Software Engineering module. 
+                                <br/>
+                                <br/>
+                                In addition, we used Scrum and Agile project management methodologies to 
+                                conduct our weekly stand-up meetings, presentations, and plan future sprints. 
+                                We held bi-weekly meetings with the Leicester City FC academy coaches and scouts, 
+                                working very closely and understanding their needs and setting goals for the upcoming sprints.
                             </p>
 
                             <a
@@ -201,11 +207,11 @@ const Projects = () => {
                             <div className="md:mt-0 mt-5 mb-6">
                                 <div className="flex">
                                     <p className="font-poppins text-sm text-deep-blue font-semibold mb-2 mr-8">Technologies</p>
-                                    <p className="font-poppins text-sm text-deep-blue mb-2">React, Express, Node.js, MongoDB, Tailwind CSS, Figma</p>
+                                    <p className="font-poppins text-sm text-deep-blue mb-2">React, Express, Node.js, mySQL</p>
                                 </div>
                                 <div className="flex">
                                     <p className="font-poppins text-sm text-deep-blue font-semibold mb-2 mr-8">Skills</p>
-                                    <p className="font-poppins text-sm text-deep-blue mb-2">Full Stack Web Development, UI Design</p>
+                                    <p className="font-poppins text-sm text-deep-blue mb-2">Full Stack Web Development, Agile, Scrum, CI/CD</p>
                                 </div>
                             </div>
                         </div>
