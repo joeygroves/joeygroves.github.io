@@ -31,7 +31,7 @@ function App() {
             amount="all"
             onViewportEnter={() => setSelectedPage("home")}
           >
-            <Hero setSelectedPage={setSelectedPage} />
+            <Hero />
           </motion.div>
         </div>
       </div>
