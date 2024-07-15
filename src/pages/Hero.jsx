@@ -1,5 +1,6 @@
 import useMediaQuery from "../hooks/useMediaQuery";
 import SocialMediaIcons from "../components/SocialMediaIcons";
+import { motion } from "framer-motion";
 
 const Hero = ({ setSelectedPage }) => {
     const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
@@ -29,14 +30,24 @@ const Hero = ({ setSelectedPage }) => {
 
             {/* MAIN SECTION */}
             <div className="z-30 basis-3/5 mt-12 md:mt-32 md:ml-32">
-                <div>
+                <motion.div
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: true, amount: 0.5 }}
+                    transition={{ duration: 0.5 }}
+                    variants={{
+                      hidden: { opacity: 0, x: -50 },
+                      visible: { opacity: 1, x: 0 },
+                    }}
+                >
                     <p className="text-6xl text-deep-blue font-poppins font-bold z-10 text-center md:text-start">
                         Hello! 👋🏼 I'm Joe
                     </p>
                     <p className="mt-6 mb-7 text-lg text-center text-grey font-poppins font-medium md:text-start">
                         a Front-End React Developer and University of Leicester Comp Sci graduate.
                     </p>
-                </div>
+                </motion.div>
+
                 <div>
                     <SocialMediaIcons />
                 </div>
