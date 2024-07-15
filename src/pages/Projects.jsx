@@ -92,11 +92,11 @@ const Projects = () => {
                             <div className="md:mt-0 mt-5 mb-6">
                                 <div className="flex">
                                     <p className="font-poppins text-sm text-deep-blue font-semibold mb-2 mr-8">Technologies</p>
-                                    <p className="font-poppins text-sm text-deep-blue mb-2">React, Express, Node.js, MongoDB, Tailwind CSS, Figma</p>
+                                    <p className="font-poppins text-sm text-deep-blue mb-2">React, Tailwind CSS, Figma</p>
                                 </div>
                                 <div className="flex">
                                     <p className="font-poppins text-sm text-deep-blue font-semibold mb-2 mr-8">Skills</p>
-                                    <p className="font-poppins text-sm text-deep-blue mb-2">Full Stack Web Development, UI Design</p>
+                                    <p className="font-poppins text-sm text-deep-blue mb-2">Front End Web Development, UI Design</p>
                                 </div>
                             </div>
                         </div>
