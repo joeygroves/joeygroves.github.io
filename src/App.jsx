@@ -25,10 +25,14 @@ function App() {
             setSelectedPage={setSelectedPage}
           />
         )}
-        <div 
-          className="w-5/6 mx-auto"
-        >
-          <Hero setSelectedPage={setSelectedPage} />
+        <div className="w-5/6 mx-auto">
+          <motion.div
+            margin="0 0 -200px 0"
+            amount="all"
+            onViewportEnter={() => setSelectedPage("home")}
+          >
+            <Hero setSelectedPage={setSelectedPage} />
+          </motion.div>
         </div>
       </div>
 
