@@ -9,6 +9,7 @@ import { motion } from "framer-motion";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState('home');
+  const [isTopOfPage, setIsTopOfPage] = useState(true);
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
 
   return (
