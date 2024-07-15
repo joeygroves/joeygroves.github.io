@@ -64,7 +64,15 @@ const TechStackIcons = () => {
                     alt="python"
                 />
                 <p className="mt-1 text-center font-poppins font-light text-grey text-sm md:mb-0 mb-6">Python</p>
-            </div>        
+            </div>
+
+            <div className="flex flex-col justify-center items-center min-w-[48px]">
+                <img 
+                    src="../src/assets/sql.svg"
+                    alt="sql"
+                />
+                <p className="mt-1 text-center font-poppins font-light text-grey text-sm md:mb-0 mb-6">SQL</p>
+            </div> 
         </div>
     );
 }
