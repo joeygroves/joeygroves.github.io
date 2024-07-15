@@ -2,7 +2,7 @@ import NavBar from "./navigation/NavBar";
 import Hero from "./pages/Hero";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import useMediaQuery from "./hooks/useMediaQuery";
 import DotGroup from "./components/DotGroup";
 import { motion } from "framer-motion";
