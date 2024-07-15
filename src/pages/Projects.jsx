@@ -180,8 +180,8 @@ const Projects = () => {
                             <p 
                                 className="font-poppins text-deep-blue mb-2"
                             >
-                                In collaboration with Premier League team, Leicester City FC, we designed and 
-                                implemented a full-stack web application written in React, Node.js 
+                                In collaboration with Premier League team, Leicester City FC. As a six-person team 
+                                we designed and implemented a full-stack web application written in React, Node.js 
                                 and MySQL for our second year Software Engineering module. 
                                 <br/>
                                 <br/>
