@@ -129,7 +129,7 @@ const Projects = () => {
                                 className="font-poppins text-deep-blue mb-2"
                             >
                                 A React weather web app, built by integrating the OpenWeatherMap API. It displays temperatures in 
-                                both Celsius and Fahrenheit. In addition, the app also displays an hourly and weely forecast, as well as 
+                                both Celsius and Fahrenheit. In addition, the app also displays an hourly and weekly forecast, as well as 
                                 specific information such as sunrise/sunset, humidity, wind speed, etc.
                                 The theme colour of the web app changes depending on the temperature of the location. It turns blue for 
                                 cooler climates and orange for warmer climates.
