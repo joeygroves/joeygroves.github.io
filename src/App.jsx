@@ -24,6 +24,7 @@ function App() {
   return (
     <div className="app">
       <NavBar 
+        isTopOfPage={isTopOfPage}
         selectedPage={selectedPage}
         setSelectedPage={setSelectedPage}
       />
