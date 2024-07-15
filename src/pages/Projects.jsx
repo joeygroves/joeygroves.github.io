@@ -56,7 +56,7 @@ const Projects = () => {
                             <img
                                 src="../src/assets/to-do-app.png"
                                 alt="to-do app"
-                                className="md:max-w-[600px] md:ml-10"
+                                className="md:max-w-[600px] md:ml-10 hover:opacity-50 transition duration-500"
                             />
                         </div>
                     </div>
@@ -112,7 +112,7 @@ const Projects = () => {
                             <img
                                 src="../src/assets/influencer-portfolio.png"
                                 alt="influencer portfolio site"
-                                className="md:max-w-[600px] md:ml-10"
+                                className="md:max-w-[600px] md:ml-10 hover:opacity-50 transition duration-500"
                             />
                         </div>
                     </div>
@@ -164,7 +164,7 @@ const Projects = () => {
                             <img
                                 src="../src/assets/weather-app.png"
                                 alt="weather app"
-                                className="md:max-w-[400px] md:ml-10"
+                                className="md:max-w-[400px] md:ml-10 hover:opacity-50 transition duration-500"
                             />
                         </div>
                     </div>
@@ -220,7 +220,7 @@ const Projects = () => {
                             <img
                                 src="../src/assets/leicester-city.png"
                                 alt="leicester city fc scouting app"
-                                className="md:max-w-[400px] md:ml-10"
+                                className="md:max-w-[400px] md:ml-10 hover:opacity-50 transition duration-500"
                             />
                         </div>
                     </div>
@@ -269,7 +269,7 @@ const Projects = () => {
                             <img
                                 src="../src/assets/simple-py-hangman.png"
                                 alt="simple py hangman"
-                                className="md:max-w-[600px] md:ml-10"
+                                className="md:max-w-[600px] md:ml-10 hover:opacity-50 transition duration-500"
                             />
                         </div>
                     </div>
