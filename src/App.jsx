@@ -37,13 +37,12 @@ function App() {
       </div>
 
       <div className="w-5/6 mx-auto">
-        <motion.div
-          margin="0 0 -200px 0"
-          amount="all"
-          onViewportEnter={() => setSelectedPage("about")}
-        >
+        {/* Framer Motion bugs out with About page but is fine with Hero page and Projects page, 
+          will test if it has the same problem when I add Etc. 
+          because both have the same 'container type'*/}
+        <div>
           <About />
-        </motion.div>
+        </div>
       </div>
 
       <div className="w-full bg-light-grey">
