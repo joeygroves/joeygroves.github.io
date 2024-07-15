@@ -14,7 +14,7 @@ const Projects = () => {
                 {/* To-Do List App */}
                 <div className="flex flex-col justify-between items-center mx-8 py-9 mb-10">
                     <div className="md:flex">
-                        <div>
+                        <div className="md:flex md:flex-col md: justify-center">
                             <p className="font-poppins font-semibold text-xl text-deep-blue">To-Do List App</p>
                             <p className="font-poppins text-md text-grey mb-4">April - May 2024</p>
 
@@ -64,7 +64,7 @@ const Projects = () => {
                 {/* Influencer Portfolio Site */}
                 <div className="flex flex-col justify-between items-center mx-8 py-9">
                     <div className="md:flex">
-                        <div>
+                        <div className="md:flex md:flex-col md: justify-center">
                             <p className="font-poppins font-semibold text-xl text-deep-blue">Influencer Portfolio Site</p>
                             <p className="font-poppins text-md text-grey mb-4">July - December 2023</p>
 
@@ -114,7 +114,7 @@ const Projects = () => {
                 {/* Weather App */}
                 <div className="flex flex-col justify-between items-center mx-8 py-9">
                     <div className="md:flex">
-                        <div>
+                        <div className="md:flex md:flex-col md: justify-center">
                             <p className="font-poppins font-semibold text-xl text-deep-blue">Weather App</p>
                             <p className="font-poppins text-md text-grey mb-4">March 2023</p>
 
@@ -164,7 +164,7 @@ const Projects = () => {
                 {/* Leicester City FC Player Scouting App */}
                 <div className="flex flex-col justify-between items-center mx-8 py-9">
                     <div className="md:flex">
-                        <div>
+                        <div className="md:flex md:flex-col md: justify-center">
                             <p className="font-poppins font-semibold text-xl text-deep-blue">Leicester City FC Player Scouting App</p>
                             <p className="font-poppins text-md text-grey mb-4">January 2020 - July 2021</p>
 
@@ -214,7 +214,7 @@ const Projects = () => {
                 {/* Simple Py Hangman */}
                 <div className="flex flex-col justify-between items-center mx-8 py-9">
                     <div className="md:flex">
-                        <div>
+                        <div className="md:flex md:flex-col md: justify-center">
                             <p className="font-poppins font-semibold text-xl text-deep-blue">Simple Py Hangman</p>
                             <p className="font-poppins text-md text-grey mb-4">November 2018</p>
 
