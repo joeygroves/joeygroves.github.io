@@ -58,15 +58,11 @@ function App() {
         </div>
       </div>
 
-      <div 
-        className="w-5/6 mx-auto"
-      >
+      <div className="w-5/6 mx-auto">
           {/** CREATIVE PROJECTS PAGE */}
       </div>
 
-      <div 
-        className="w-full bg-light-grey"
-      >
+      <div className="w-full bg-light-grey">
         <div className="w-5/6 mx-auto">
           {/** CONTACT PAGE */}
         </div>
