@@ -1,5 +1,6 @@
 import useMediaQuery from '../hooks/useMediaQuery';
 import TechStackIcons from '../components/TechStackIcons';
+import { motion } from 'framer-motion';
 
 const About = () => {
     const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
