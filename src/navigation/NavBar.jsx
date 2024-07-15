@@ -17,7 +17,7 @@ const Link = ({ page, selectedPage, setSelectedPage }) => {
     );
   };
 
-const NavBar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
+const NavBar = ({ selectedPage, setSelectedPage }) => {
     const [isMenuToggled, setIsMenuToggled] = useState(false);
     const isAboveSmallScreens = useMediaQuery("(min-width: 768px)");
 
