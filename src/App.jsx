@@ -5,6 +5,7 @@ import Projects from "./pages/Projects";
 import { useState } from "react";
 import useMediaQuery from "./hooks/useMediaQuery";
 import DotGroup from "./components/DotGroup";
+import { motion } from "framer-motion";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState('home');
