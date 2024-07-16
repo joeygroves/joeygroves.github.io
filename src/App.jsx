@@ -4,6 +4,7 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Etc from "./pages/Etc";
 import Contact from "./pages/Contact";
+import Footer from "./components/Footer";
 import { useState } from "react";
 import useMediaQuery from "./hooks/useMediaQuery";
 import DotGroup from "./components/DotGroup";
@@ -70,7 +71,8 @@ function App() {
           <Contact />
         </div>
       </div>
-
+      
+      <Footer />
     </div>
   )
 }
