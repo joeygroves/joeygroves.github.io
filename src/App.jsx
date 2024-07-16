@@ -3,6 +3,7 @@ import Hero from "./pages/Hero";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Etc from "./pages/Etc";
+import Contact from "./pages/Contact";
 import { useState } from "react";
 import useMediaQuery from "./hooks/useMediaQuery";
 import DotGroup from "./components/DotGroup";
@@ -66,7 +67,7 @@ function App() {
 
       <div className="w-full bg-light-grey">
         <div className="w-5/6 mx-auto">
-          {/** CONTACT PAGE */}
+          <Contact />
         </div>
       </div>
 
