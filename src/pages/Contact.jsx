@@ -30,7 +30,7 @@ const Contact = () => {
                           visible: { opacity: 1, x: 0 },
                         }}
                     >
-                        <p className="font-poppins text-grey mb-16">
+                        <p className="font-poppins text-grey mb-20">
                             Don't be shy! Let's get in touch if you have a project / collaboration in mind. Or if you just want a coffee chat. 😁
                         </p>
                     </motion.div>
