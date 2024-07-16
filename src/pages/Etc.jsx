@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 const Etc = () => {
     return (
         <section 
@@ -5,12 +7,21 @@ const Etc = () => {
             className="pt-48 pb-48"
         >
             <div>
-                <div>
+                <motion.div
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: true, amount: 0.5 }}
+                    transition={{ duration: 0.5 }}
+                    variants={{
+                    hidden: { opacity: 0, y: 50 },
+                    visible: { opacity: 1, y: 0 },
+                    }}
+                >
                     <p className="font-poppins font-semibold text-3xl text-blue text-center">ET CETERA</p>
                     <p className="my-2 text-sm text-center text-grey font-poppins font-light">
                         INTERESTED IN MORE WORK + ART?
                     </p>
-                </div>
+                </motion.div>
             </div>
         </section>
     )
