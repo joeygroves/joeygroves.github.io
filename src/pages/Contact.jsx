@@ -30,11 +30,24 @@ const Contact = () => {
                           visible: { opacity: 1, x: 0 },
                         }}
                     >
-                        <p className="font-poppins text-grey mb-7">
+                        <p className="font-poppins text-grey mb-16">
                             Don't be shy! Let's get in touch if you have a project / collaboration in mind. Or if you just want a coffee chat. 😁
                         </p>
                     </motion.div>
             </motion.div>
+
+            {/* Email Button */}
+            <div>
+                <a
+                    href="mailto:joewesleygroves@gmail.com"
+                >
+                    <button
+                        className="rounded-full bg-white shadow-md w-[48px]"
+                    >
+                        <img src="../src/assets/email.svg"  alt="email-icon" className="p-2"/>
+                    </button>
+                </a>
+            </div>
         </section>
     )
 }
