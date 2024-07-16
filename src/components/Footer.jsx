@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <footer className="h-64 bg-deep-blue pt-10">
             <div className="w-5/6 mx-auto">
-                <p className="font-poppins font-black text-3xl text-white mb-3 md:justify-start md:text-left text-center md:mt-6">Joe Groves</p>
+                <p className="font-poppins font-extrabold text-3xl text-white mb-3 md:justify-start md:text-left text-center md:mt-6">Joe Groves</p>
 
                 {/* White Social Media Icons */}
                 <div>
@@ -16,8 +16,9 @@ const Footer = () => {
                             rel="noreferrer"
                         >
                             <img 
-                                src="../src/assets/contact-linkedin.svg"
+                                src="../src/assets/contact-linkedin.png"
                                 alt="linkedin-link"
+                                className="max-w-[48px]"
                             />
                         </a>
                         <a
@@ -27,8 +28,9 @@ const Footer = () => {
                             rel="noreferrer"
                         >
                             <img 
-                                src="../src/assets/contact-github.svg"
+                                src="../src/assets/contact-github.png"
                                 alt="github-link"
+                                className="max-w-[48px]"
                             />
                         </a>
                     </div>
