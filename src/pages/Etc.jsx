@@ -12,6 +12,10 @@ const projectVariant = {
     visible: { opacity: 1, scale: 1}
 }
 
+const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
+        bg-light-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
+
+{/*
 const Project = ({ title, subtitle }) => {
     const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
         bg-light-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`
@@ -27,6 +31,7 @@ const Project = ({ title, subtitle }) => {
         </motion.div>
     )
 }
+*/}
 
 const Etc = () => {
     return (
@@ -64,12 +69,29 @@ const Etc = () => {
                     viewport={{ once: true, amount: 0.5 }}
                     variants={container}
                 >
-                    {/* ROW 1 */}
+                    {/*
                     <Project title="Leicester City" subtitle="Hello"/>
                     <Project title="Leicester City" subtitle="darkness"/>
                     <Project title="Leicester City" subtitle="my"/>
                     <Project title="Leicester City" subtitle="old"/>
                     <Project title="Leicester City" subtitle="friend"/>
+                    */}
+
+                    <motion.div variants={projectVariant} className="relative">
+                        <a
+                            href="https://github.com/joeygroves/todo-app"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <div className={overlayStyles}>
+                                <p className="text-2xl font-poppins">LOL</p>
+                                <p className="mt-7">poo</p>
+                            </div>
+                            {/* Images should sized 400px X 400px */}
+                            <img src={`../src/assets/leicester.png`} alt="leicester city"/>
+                        </a>
+                    </motion.div>
+
                 </motion.div>
             </div>
 
