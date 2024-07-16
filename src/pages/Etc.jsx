@@ -93,7 +93,24 @@ const Etc = () => {
                             <img src="../src/assets/scorpio-rabbit.png" alt="scorpio rabbit"/>
                         </a>
                     </motion.div>
-                    
+
+                    {/* Grooovy x Tangerine Hoodie */}
+                    <motion.div variants={projectVariant} className="relative">
+                        <a
+                            href="https://www.instagram.com/p/CU-MmtXM1-c/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <div className={overlayStyles}>
+                                <p className="text-2xl font-poppins font-bold">Grooovy x Tangerine Hoodie</p>
+                                <p className="mt-7 font-poppins">Clothing</p>
+                                <p className="font-poppins font-light">15.02.2021 Release</p>
+                            </div>
+                            {/* Images should sized 800px X 800px */}
+                            <img src="../src/assets/grooovy-tangerine-hoodie.png" alt="grooovy-tangerine-hoodie"/>
+                        </a>
+                    </motion.div>
+
                     {/* Tangerine Book */}
                     <motion.div variants={projectVariant} className="relative">
                         <a
@@ -110,6 +127,41 @@ const Etc = () => {
                             <img src="../src/assets/tangerine-book.png" alt="tangerine"/>
                         </a>
                     </motion.div>
+
+                    {/* Grooovy x Tangerine Sweatshirt */}
+                    <motion.div variants={projectVariant} className="relative">
+                        <a
+                            href="https://www.instagram.com/p/CU-McFnstKd/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <div className={overlayStyles}>
+                                <p className="text-2xl font-poppins font-bold">Grooovy x Tangerine Sweatshirt</p>
+                                <p className="mt-7 font-poppins">Clothing</p>
+                                <p className="font-poppins font-light">01.12.2020 Release</p>
+                            </div>
+                            {/* Images should sized 800px X 800px */}
+                            <img src="../src/assets/grooovy-tangerine-sweatshirt.png" alt="grooovy-tangerine-sweathshirt"/>
+                        </a>
+                    </motion.div>
+
+                    {/* The Earlyman Tape */}
+                    <motion.div variants={projectVariant} className="relative">
+                        <a
+                            href="https://distrokid.com/hyperfollow/liddypool/the-earlyman-tape-3"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <div className={overlayStyles}>
+                                <p className="text-2xl font-poppins font-bold">The Earlyman Tape</p>
+                                <p className="mt-7 font-poppins">Album</p>
+                                <p className="font-poppins font-light">21.06.2019 Release</p>
+                            </div>
+                            {/* Images should sized 800px X 800px */}
+                            <img src="../src/assets/the-earlyman-tape.png" alt="the-earlyman-tape"/>
+                        </a>
+                    </motion.div>
+
                 </motion.div>
             </div>
 
