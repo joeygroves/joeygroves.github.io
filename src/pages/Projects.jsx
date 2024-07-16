@@ -7,9 +7,18 @@ const Projects = () => {
             className="pt-48 pb-48"
         >
             <div>
-                <div>
+                <motion.div
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: true, amount: 0.5 }}
+                    transition={{ duration: 0.5 }}
+                    variants={{
+                      hidden: { opacity: 0, x: -50 },
+                      visible: { opacity: 1, x: 0 },
+                    }}
+                >
                     <p className="font-poppins font-semibold text-3xl mb-10 text-blue text-center">PROJECTS</p>
-                </div>
+                </motion.div>
             </div>
 
             <div className="flex flex-col md:gap-12">
