@@ -36,18 +36,50 @@ const Contact = () => {
                     </motion.div>
             </motion.div>
 
-            {/* Email Button */}
+
+            
+            {/* Contact Info */}
             <div>
-                <a
-                    href="mailto:joewesleygroves@gmail.com"
-                >
-                    <button
-                        className="rounded-full bg-white shadow-md w-[48px]"
+                {/* Email Button */}
+                <div className="flex">
+                    <motion.div
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{ once: true, amount: 0.5 }}
+                        transition={{ delay:0.2, duration: 0.5 }}
+                        variants={{
+                        hidden: { opacity: 0, y: 50 },
+                        visible: { opacity: 1, y: 0 },
+                        }}
                     >
-                        <img src="../src/assets/email.svg"  alt="email-icon" className="p-2"/>
-                    </button>
-                </a>
+                        <a
+                            href="mailto:joewesleygroves@gmail.com"
+                        >
+                            <button
+                                className="rounded-full bg-white shadow-md w-[48px]"
+                            >
+                                <img src="../src/assets/email.svg"  alt="email-icon" className="p-2"/>
+                            </button>
+                        </a>
+                    </motion.div>
+                    
+                    <motion.div 
+                        className="mx-4"
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{ once: true, amount: 0.5 }}
+                        transition={{ delay:0.2, duration: 0.5 }}
+                        variants={{
+                        hidden: { opacity: 0, y: 50 },
+                        visible: { opacity: 1, y: 0 },
+                        }}
+                    >
+                        <p className="font-poppins font-bold text-deep-blue">Mail</p>
+                        <p className="font-poppins text-grey">joewesleygroves@gmail.com</p>
+                    </motion.div>
+                </div>
             </div>
+            
         </section>
     )
 }
