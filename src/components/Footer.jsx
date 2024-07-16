@@ -16,9 +16,8 @@ const Footer = () => {
                             rel="noreferrer"
                         >
                             <img 
-                                src="../src/assets/contact-linkedin.png"
+                                src="../src/assets/contact-linkedin.svg"
                                 alt="linkedin-link"
-                                className="max-w-[48px]"
                             />
                         </a>
                         <a
@@ -28,9 +27,8 @@ const Footer = () => {
                             rel="noreferrer"
                         >
                             <img 
-                                src="../src/assets/contact-github.png"
+                                src="../src/assets/contact-github.svg"
                                 alt="github-link"
-                                className="max-w-[48px]"
                             />
                         </a>
                     </div>
