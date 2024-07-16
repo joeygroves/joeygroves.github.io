@@ -2,6 +2,7 @@ import NavBar from "./navigation/NavBar";
 import Hero from "./pages/Hero";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
+import Etc from "./pages/Etc";
 import { useState } from "react";
 import useMediaQuery from "./hooks/useMediaQuery";
 import DotGroup from "./components/DotGroup";
@@ -58,7 +59,9 @@ function App() {
       </div>
 
       <div className="w-5/6 mx-auto">
-          {/** CREATIVE PROJECTS PAGE */}
+          <div>
+            <Etc />
+          </div>
       </div>
 
       <div className="w-full bg-light-grey">
