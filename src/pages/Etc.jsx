@@ -77,18 +77,20 @@ const Etc = () => {
                     <Project title="Leicester City" subtitle="friend"/>
                     */}
 
+                    {/* Scorpio Rabbit */}
                     <motion.div variants={projectVariant} className="relative">
                         <a
-                            href="https://github.com/joeygroves/todo-app"
+                            href="https://ffm.to/scorpio-rabbit"
                             target="_blank"
                             rel="noreferrer"
                         >
                             <div className={overlayStyles}>
-                                <p className="text-2xl font-poppins">LOL</p>
-                                <p className="mt-7">poo</p>
+                                <p className="text-2xl font-poppins font-bold">Scorpio Rabbit</p>
+                                <p className="mt-7 font-poppins">Album</p>
+                                <p className="font-poppins font-light">09.02.2024 Release</p>
                             </div>
-                            {/* Images should sized 400px X 400px */}
-                            <img src={`../src/assets/leicester.png`} alt="leicester city"/>
+                            {/* Images should sized 800px X 800px */}
+                            <img src="../src/assets/scorpio-rabbit.png" alt="scorpio rabbit"/>
                         </a>
                     </motion.div>
 
