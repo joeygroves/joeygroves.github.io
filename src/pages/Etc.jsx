@@ -93,7 +93,23 @@ const Etc = () => {
                             <img src="../src/assets/scorpio-rabbit.png" alt="scorpio rabbit"/>
                         </a>
                     </motion.div>
-
+                    
+                    {/* Tangerine Book */}
+                    <motion.div variants={projectVariant} className="relative">
+                        <a
+                            href="https://www.amazon.co.uk/dp/1838211624"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <div className={overlayStyles}>
+                                <p className="text-2xl font-poppins font-bold">Tangerine: Or, How I Learned to Trust the Process</p>
+                                <p className="mt-7 font-poppins">Book</p>
+                                <p className="font-poppins font-light">07.02.2021 Release</p>
+                            </div>
+                            {/* Images should sized 800px X 800px */}
+                            <img src="../src/assets/tangerine-book.png" alt="tangerine"/>
+                        </a>
+                    </motion.div>
                 </motion.div>
             </div>
 
