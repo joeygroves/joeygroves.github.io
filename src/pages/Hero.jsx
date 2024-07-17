@@ -11,14 +11,14 @@ const Hero = () => {
             <div className="md:order-2 flex justify-center basis-2/5 z-10 mt-16 md:mt-32 md:mr-16">
                 {isAboveMediumScreens ? (
                     <img 
-                        src="../src/assets/Joey_Standing.png"
+                        src="../assets/Joey_Standing.png"
                         alt="profile"
                         className="z-10 w-full max-w-[190px] md:max-w-[290px]"
                     />
                 ) : (
                     /* For when it is below medium screens */
                     <img 
-                        src="../src/assets/Joey_Standing.png"
+                        src="../assets/Joey_Standing.png"
                         alt="profile"
                         className="z-10 w-full max-w-[190px] md:max-w-[290px]"
                     />

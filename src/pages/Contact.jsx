@@ -25,7 +25,7 @@ const Contact = () => {
                             }}
                         >
                             <img
-                                src="../src/assets/Joey_Sitting_2.png"
+                                src="../assets/Joey_Sitting_2.png"
                                 alt="contact"
                                 className="z-10 max-w-[250px] md:max-w-[400px]"
                             />
@@ -42,7 +42,7 @@ const Contact = () => {
                                 }}
                             >
                                 <img
-                                    src="../src/assets/Joey_Sitting_2.png"
+                                    src="../assets/Joey_Sitting_2.png"
                                     alt="contact"
                                     className="z-10 max-w-[250px] md:max-w-[400px]"
                                 />
@@ -105,7 +105,7 @@ const Contact = () => {
                                     <button
                                         className="rounded-full bg-white shadow-md w-[48px]"
                                     >
-                                        <img src="../src/assets/email.svg"  alt="email-icon" className="p-2"/>
+                                        <img src="../assets/email.svg"  alt="email-icon" className="p-2"/>
                                     </button>
                                 </a>
                             </motion.div>

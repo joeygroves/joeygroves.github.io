@@ -115,14 +115,14 @@ const About = () => {
                                     before:border-blue before:z-[-1]"
                             >
                                 <img
-                                    src="../src/assets/about.png"
+                                    src="../assets/about.png"
                                     alt="about"
                                     className="z-10 hover:filter hover:saturate-200 transition duration-500"
                                 />
                             </div>
                         ) : (
                             <img
-                                src="../src/assets/about.png"
+                                src="../assets/about.png"
                                 alt="about"
                                 className="z-10 hover:filter hover:saturate-200 transition duration-500"
                             />

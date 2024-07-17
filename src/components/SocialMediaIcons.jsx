@@ -8,7 +8,7 @@ const SocialMediaIcons = () => {
                 rel="noreferrer"
             >
                 <img 
-                    src="../src/assets/linkedin.svg"
+                    src="../assets/linkedin.svg"
                     alt="linkedin-link"
                 />
             </a>
@@ -19,7 +19,7 @@ const SocialMediaIcons = () => {
                 rel="noreferrer"
             >
                 <img 
-                    src="../src/assets/github.svg"
+                    src="../assets/github.svg"
                     alt="github-link"
                 />
             </a>

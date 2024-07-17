@@ -90,7 +90,7 @@ const Etc = () => {
                                 <p className="font-poppins font-light">09.02.2024 Release</p>
                             </div>
                             {/* Images should sized 800px X 800px */}
-                            <img src="../src/assets/scorpio-rabbit.png" alt="scorpio rabbit"/>
+                            <img src="../assets/scorpio-rabbit.png" alt="scorpio rabbit"/>
                         </a>
                     </motion.div>
 
@@ -107,7 +107,7 @@ const Etc = () => {
                                 <p className="font-poppins font-light">15.02.2021 Release</p>
                             </div>
                             {/* Images should sized 800px X 800px */}
-                            <img src="../src/assets/grooovy-tangerine-hoodie.png" alt="grooovy-tangerine-hoodie"/>
+                            <img src="../assets/grooovy-tangerine-hoodie.png" alt="grooovy-tangerine-hoodie"/>
                         </a>
                     </motion.div>
 
@@ -124,7 +124,7 @@ const Etc = () => {
                                 <p className="font-poppins font-light">07.02.2021 Release</p>
                             </div>
                             {/* Images should sized 800px X 800px */}
-                            <img src="../src/assets/tangerine-book.png" alt="tangerine"/>
+                            <img src="../assets/tangerine-book.png" alt="tangerine"/>
                         </a>
                     </motion.div>
 
@@ -141,7 +141,7 @@ const Etc = () => {
                                 <p className="font-poppins font-light">01.12.2020 Release</p>
                             </div>
                             {/* Images should sized 800px X 800px */}
-                            <img src="../src/assets/grooovy-tangerine-sweatshirt.png" alt="grooovy-tangerine-sweathshirt"/>
+                            <img src="../assets/grooovy-tangerine-sweatshirt.png" alt="grooovy-tangerine-sweathshirt"/>
                         </a>
                     </motion.div>
 
@@ -158,7 +158,7 @@ const Etc = () => {
                                 <p className="font-poppins font-light">21.06.2019 Release</p>
                             </div>
                             {/* Images should sized 800px X 800px */}
-                            <img src="../src/assets/the-earlyman-tape.png" alt="the-earlyman-tape"/>
+                            <img src="../assets/the-earlyman-tape.png" alt="the-earlyman-tape"/>
                         </a>
                     </motion.div>
 

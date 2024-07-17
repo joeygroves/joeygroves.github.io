@@ -16,7 +16,7 @@ const Footer = () => {
                             rel="noreferrer"
                         >
                             <img 
-                                src="../src/assets/contact-linkedin.svg"
+                                src="../assets/contact-linkedin.svg"
                                 alt="linkedin-link"
                             />
                         </a>
@@ -27,7 +27,7 @@ const Footer = () => {
                             rel="noreferrer"
                         >
                             <img 
-                                src="../src/assets/contact-github.svg"
+                                src="../assets/contact-github.svg"
                                 alt="github-link"
                             />
                         </a>
