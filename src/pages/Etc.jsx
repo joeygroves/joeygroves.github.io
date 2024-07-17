@@ -119,7 +119,7 @@ const Etc = () => {
                             rel="noreferrer"
                         >
                             <div className={overlayStyles}>
-                                <p className="text-2xl font-poppins font-bold">Tangerine: Or, How I Learned to Trust the Process</p>
+                                <p className="text-md font-poppins font-bold">Tangerine: Or, How I Learned to Trust the Process</p>
                                 <p className="mt-7 font-poppins">Book</p>
                                 <p className="font-poppins font-light">07.02.2021 Release</p>
                             </div>
