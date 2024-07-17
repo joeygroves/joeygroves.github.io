@@ -39,12 +39,15 @@ function App() {
         </div>
       </div>
 
-      <div className="w-5/6 mx-auto">
-        {/* I've tested the Etc. section and Framer Motion STILL bugs out with About page 
-          but is fine with Hero, Projects, Etc. and Contact sections.
-          I don't understand why the About section glitches out!!! */}
-        <div>
-          <About />
+      <div className="w-full md:h-full bg-white">
+        <div className="w-5/6 mx-auto">
+          <motion.div
+            margin="0 0 -200px 0"
+            amount="all"
+            onViewportEnter={() => setSelectedPage("about")}
+          >
+            <About />
+          </motion.div>
         </div>
       </div>
 
