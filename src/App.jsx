@@ -68,7 +68,13 @@ function App() {
 
       <div className="w-full bg-light-grey">
         <div className="w-5/6 mx-auto">
-          <Contact />
+          <motion.div
+            margin="0 0 -200px 0"
+            amount="all"
+            onViewportEnter={() => setSelectedPage("contact")}
+          >
+            <Contact />
+          </motion.div>
         </div>
       </div>
       
