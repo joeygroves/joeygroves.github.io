@@ -1,3 +1,4 @@
+import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 
 const container = {
@@ -34,6 +35,8 @@ const Project = ({ title, subtitle }) => {
 */}
 
 const Etc = () => {
+    const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
+
     return (
         <section 
             id="etc."
@@ -62,107 +65,208 @@ const Etc = () => {
                 there's 5 columns in a row
             */}
             <div className="flex justify-center">
-                <motion.div
-                    className="sm:grid sm:grid-cols-5 sm:gap-6"
-                    initial="hidden"
-                    whileInView="visible"
-                    viewport={{ once: true, amount: 0.5 }}
-                    variants={container}
-                >
-                    {/*
-                    <Project title="Leicester City" subtitle="Hello"/>
-                    <Project title="Leicester City" subtitle="darkness"/>
-                    <Project title="Leicester City" subtitle="my"/>
-                    <Project title="Leicester City" subtitle="old"/>
-                    <Project title="Leicester City" subtitle="friend"/>
-                    */}
+                {isAboveMediumScreens ? (
+                    <motion.div
+                        className="sm:grid sm:grid-cols-5 sm:gap-6"
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{ once: true, amount: 0.5 }}
+                        variants={container}
+                    >
+                        {/*
+                        <Project title="Leicester City" subtitle="Hello"/>
+                        <Project title="Leicester City" subtitle="darkness"/>
+                        <Project title="Leicester City" subtitle="my"/>
+                        <Project title="Leicester City" subtitle="old"/>
+                        <Project title="Leicester City" subtitle="friend"/>
+                        */}
 
-                    {/* Scorpio Rabbit */}
-                    <motion.div variants={projectVariant} className="relative">
-                        <a
-                            href="https://ffm.to/scorpio-rabbit"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <div className={overlayStyles}>
-                                <p className="text-2xl font-poppins font-bold">Scorpio Rabbit</p>
-                                <p className="mt-7 font-poppins">Album</p>
-                                <p className="font-poppins font-light">09.02.2024 Release</p>
-                            </div>
-                            {/* Images should sized 800px X 800px */}
-                            <img src="../assets/scorpio-rabbit.png" alt="scorpio rabbit"/>
-                        </a>
+                        {/* Scorpio Rabbit */}
+                        <motion.div variants={projectVariant} className="relative">
+                            <a
+                                href="https://ffm.to/scorpio-rabbit"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <div className={overlayStyles}>
+                                    <p className="text-2xl font-poppins font-bold">Scorpio Rabbit</p>
+                                    <p className="mt-7 font-poppins">Album</p>
+                                    <p className="font-poppins font-light">09.02.2024 Release</p>
+                                </div>
+                                {/* Images should sized 800px X 800px */}
+                                <img src="../assets/scorpio-rabbit.png" alt="scorpio rabbit"/>
+                            </a>
+                        </motion.div>
+
+                        {/* Grooovy x Tangerine Hoodie */}
+                        <motion.div variants={projectVariant} className="relative">
+                            <a
+                                href="https://www.instagram.com/p/CU-MmtXM1-c/"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <div className={overlayStyles}>
+                                    <p className="text-2xl font-poppins font-bold">Grooovy x Tangerine Hoodie</p>
+                                    <p className="mt-7 font-poppins">Clothing</p>
+                                    <p className="font-poppins font-light">15.02.2021 Release</p>
+                                </div>
+                                {/* Images should sized 800px X 800px */}
+                                <img src="../assets/grooovy-tangerine-hoodie.png" alt="grooovy-tangerine-hoodie"/>
+                            </a>
+                        </motion.div>
+
+                        {/* Tangerine Book */}
+                        <motion.div variants={projectVariant} className="relative">
+                            <a
+                                href="https://www.amazon.co.uk/dp/1838211624"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <div className={overlayStyles}>
+                                    <p className="text-md font-poppins font-bold">Tangerine: Or, How I Learned to Trust the Process</p>
+                                    <p className="mt-7 font-poppins">Book</p>
+                                    <p className="font-poppins font-light">07.02.2021 Release</p>
+                                </div>
+                                {/* Images should sized 800px X 800px */}
+                                <img src="../assets/tangerine-book.png" alt="tangerine"/>
+                            </a>
+                        </motion.div>
+
+                        {/* Grooovy x Tangerine Sweatshirt */}
+                        <motion.div variants={projectVariant} className="relative">
+                            <a
+                                href="https://www.instagram.com/p/CU-McFnstKd/"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <div className={overlayStyles}>
+                                    <p className="text-2xl font-poppins font-bold">Grooovy x Tangerine Sweatshirt</p>
+                                    <p className="mt-7 font-poppins">Clothing</p>
+                                    <p className="font-poppins font-light">01.12.2020 Release</p>
+                                </div>
+                                {/* Images should sized 800px X 800px */}
+                                <img src="../assets/grooovy-tangerine-sweatshirt.png" alt="grooovy-tangerine-sweathshirt"/>
+                            </a>
+                        </motion.div>
+
+                        {/* The Earlyman Tape */}
+                        <motion.div variants={projectVariant} className="relative">
+                            <a
+                                href="https://distrokid.com/hyperfollow/liddypool/the-earlyman-tape-3"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <div className={overlayStyles}>
+                                    <p className="text-2xl font-poppins font-bold">The Earlyman Tape</p>
+                                    <p className="mt-7 font-poppins">Album</p>
+                                    <p className="font-poppins font-light">21.06.2019 Release</p>
+                                </div>
+                                {/* Images should sized 800px X 800px */}
+                                <img src="../assets/the-earlyman-tape.png" alt="the-earlyman-tape"/>
+                            </a>
+                        </motion.div>
+
                     </motion.div>
+                ) : (
+                    <div
+                        className="sm:grid sm:grid-cols-5 sm:gap-6"
+                    >
+                        {/*
+                        <Project title="Leicester City" subtitle="Hello"/>
+                        <Project title="Leicester City" subtitle="darkness"/>
+                        <Project title="Leicester City" subtitle="my"/>
+                        <Project title="Leicester City" subtitle="old"/>
+                        <Project title="Leicester City" subtitle="friend"/>
+                        */}
 
-                    {/* Grooovy x Tangerine Hoodie */}
-                    <motion.div variants={projectVariant} className="relative">
-                        <a
-                            href="https://www.instagram.com/p/CU-MmtXM1-c/"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <div className={overlayStyles}>
-                                <p className="text-2xl font-poppins font-bold">Grooovy x Tangerine Hoodie</p>
-                                <p className="mt-7 font-poppins">Clothing</p>
-                                <p className="font-poppins font-light">15.02.2021 Release</p>
-                            </div>
-                            {/* Images should sized 800px X 800px */}
-                            <img src="../assets/grooovy-tangerine-hoodie.png" alt="grooovy-tangerine-hoodie"/>
-                        </a>
-                    </motion.div>
+                        {/* Scorpio Rabbit */}
+                        <motion.div variants={projectVariant} className="relative">
+                            <a
+                                href="https://ffm.to/scorpio-rabbit"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <div className={overlayStyles}>
+                                    <p className="text-2xl font-poppins font-bold">Scorpio Rabbit</p>
+                                    <p className="mt-7 font-poppins">Album</p>
+                                    <p className="font-poppins font-light">09.02.2024 Release</p>
+                                </div>
+                                {/* Images should sized 800px X 800px */}
+                                <img src="../assets/scorpio-rabbit.png" alt="scorpio rabbit"/>
+                            </a>
+                        </motion.div>
 
-                    {/* Tangerine Book */}
-                    <motion.div variants={projectVariant} className="relative">
-                        <a
-                            href="https://www.amazon.co.uk/dp/1838211624"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <div className={overlayStyles}>
-                                <p className="text-md font-poppins font-bold">Tangerine: Or, How I Learned to Trust the Process</p>
-                                <p className="mt-7 font-poppins">Book</p>
-                                <p className="font-poppins font-light">07.02.2021 Release</p>
-                            </div>
-                            {/* Images should sized 800px X 800px */}
-                            <img src="../assets/tangerine-book.png" alt="tangerine"/>
-                        </a>
-                    </motion.div>
+                        {/* Grooovy x Tangerine Hoodie */}
+                        <motion.div variants={projectVariant} className="relative">
+                            <a
+                                href="https://www.instagram.com/p/CU-MmtXM1-c/"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <div className={overlayStyles}>
+                                    <p className="text-2xl font-poppins font-bold">Grooovy x Tangerine Hoodie</p>
+                                    <p className="mt-7 font-poppins">Clothing</p>
+                                    <p className="font-poppins font-light">15.02.2021 Release</p>
+                                </div>
+                                {/* Images should sized 800px X 800px */}
+                                <img src="../assets/grooovy-tangerine-hoodie.png" alt="grooovy-tangerine-hoodie"/>
+                            </a>
+                        </motion.div>
 
-                    {/* Grooovy x Tangerine Sweatshirt */}
-                    <motion.div variants={projectVariant} className="relative">
-                        <a
-                            href="https://www.instagram.com/p/CU-McFnstKd/"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <div className={overlayStyles}>
-                                <p className="text-2xl font-poppins font-bold">Grooovy x Tangerine Sweatshirt</p>
-                                <p className="mt-7 font-poppins">Clothing</p>
-                                <p className="font-poppins font-light">01.12.2020 Release</p>
-                            </div>
-                            {/* Images should sized 800px X 800px */}
-                            <img src="../assets/grooovy-tangerine-sweatshirt.png" alt="grooovy-tangerine-sweathshirt"/>
-                        </a>
-                    </motion.div>
+                        {/* Tangerine Book */}
+                        <motion.div variants={projectVariant} className="relative">
+                            <a
+                                href="https://www.amazon.co.uk/dp/1838211624"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <div className={overlayStyles}>
+                                    <p className="text-md font-poppins font-bold">Tangerine: Or, How I Learned to Trust the Process</p>
+                                    <p className="mt-7 font-poppins">Book</p>
+                                    <p className="font-poppins font-light">07.02.2021 Release</p>
+                                </div>
+                                {/* Images should sized 800px X 800px */}
+                                <img src="../assets/tangerine-book.png" alt="tangerine"/>
+                            </a>
+                        </motion.div>
 
-                    {/* The Earlyman Tape */}
-                    <motion.div variants={projectVariant} className="relative">
-                        <a
-                            href="https://distrokid.com/hyperfollow/liddypool/the-earlyman-tape-3"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <div className={overlayStyles}>
-                                <p className="text-2xl font-poppins font-bold">The Earlyman Tape</p>
-                                <p className="mt-7 font-poppins">Album</p>
-                                <p className="font-poppins font-light">21.06.2019 Release</p>
-                            </div>
-                            {/* Images should sized 800px X 800px */}
-                            <img src="../assets/the-earlyman-tape.png" alt="the-earlyman-tape"/>
-                        </a>
-                    </motion.div>
+                        {/* Grooovy x Tangerine Sweatshirt */}
+                        <motion.div variants={projectVariant} className="relative">
+                            <a
+                                href="https://www.instagram.com/p/CU-McFnstKd/"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <div className={overlayStyles}>
+                                    <p className="text-2xl font-poppins font-bold">Grooovy x Tangerine Sweatshirt</p>
+                                    <p className="mt-7 font-poppins">Clothing</p>
+                                    <p className="font-poppins font-light">01.12.2020 Release</p>
+                                </div>
+                                {/* Images should sized 800px X 800px */}
+                                <img src="../assets/grooovy-tangerine-sweatshirt.png" alt="grooovy-tangerine-sweathshirt"/>
+                            </a>
+                        </motion.div>
 
-                </motion.div>
+                        {/* The Earlyman Tape */}
+                        <motion.div variants={projectVariant} className="relative">
+                            <a
+                                href="https://distrokid.com/hyperfollow/liddypool/the-earlyman-tape-3"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <div className={overlayStyles}>
+                                    <p className="text-2xl font-poppins font-bold">The Earlyman Tape</p>
+                                    <p className="mt-7 font-poppins">Album</p>
+                                    <p className="font-poppins font-light">21.06.2019 Release</p>
+                                </div>
+                                {/* Images should sized 800px X 800px */}
+                                <img src="../assets/the-earlyman-tape.png" alt="the-earlyman-tape"/>
+                            </a>
+                        </motion.div>
+
+                    </div>
+                )}
+                
             </div>
 
         </section>
