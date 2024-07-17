@@ -60,10 +60,16 @@ function App() {
         </div>
       </div>
 
-      <div className="w-5/6 mx-auto">
-          <div>
-            <Etc />
-          </div>
+      <div className="w-full bg-white">
+        <div className="w-5/6 mx-auto">
+            <motion.div
+              margin="0 0 -200px 0"
+              amount="all"
+              onViewportEnter={() => setSelectedPage("etc.")}
+            >
+              <Etc />
+            </motion.div>
+        </div>
       </div>
 
       <div className="w-full bg-light-grey">
