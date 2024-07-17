@@ -22,7 +22,7 @@ const Contact = () => {
                             variants={{
                             hidden: { opacity: 0, y: 50 },
                             visible: { opacity: 1, y: 0 },
-                    }}
+                            }}
                         >
                             <img
                                 src="../src/assets/Joey_Sitting_2.png"
@@ -31,11 +31,22 @@ const Contact = () => {
                             />
                         </motion.div>
                         ) : (
-                            <img
-                                src="../src/assets/Joey_Sitting_2.png"
-                                alt="contact"
-                                className="z-10 max-w-[250px] md:max-w-[400px]"
-                            />
+                            <motion.div
+                                initial="hidden"
+                                whileInView="visible"
+                                viewport={{ once: true, amount: 0.5 }}
+                                transition={{ duration: 0.5 }}
+                                variants={{
+                                hidden: { opacity: 0, y: 50 },
+                                visible: { opacity: 1, y: 0 },
+                                }}
+                            >
+                                <img
+                                    src="../src/assets/Joey_Sitting_2.png"
+                                    alt="contact"
+                                    className="z-10 max-w-[250px] md:max-w-[400px]"
+                                />
+                            </motion.div>
                         )
                     }
                 </div>
