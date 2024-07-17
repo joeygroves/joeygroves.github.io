@@ -6,10 +6,11 @@ const About = () => {
     const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
 
     return (
-        <section id="about" className="pt-10 pb-24">
-            <div className="md:flex md:justify-between md:gap-16 mt-32">
+        <section id="about" className="md:pt-0 pt-10 pb-24">
+            <div className="md:flex md:justify-between md:gap-16 md:pt-10 mt-32">
                 <div>
                     <motion.div
+                        className="md:pt-24"
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true, amount: 0.5 }}
@@ -94,7 +95,7 @@ const About = () => {
                     </div> 
                 </div>
 
-                <div className="mt-16 md:mt-0">
+                <div className="mt-16 md:mt-0 md:pt-24">
                     <motion.div
                         initial="hidden"
                         whileInView="visible"
