@@ -39,7 +39,7 @@ function App() {
         </div>
       </div>
 
-      <div className="w-full md:h-full bg-white">
+      <div className="w-full bg-white">
         <div className="w-5/6 mx-auto">
           <motion.div
             margin="0 0 -200px 0"
