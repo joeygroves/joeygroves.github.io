@@ -40,9 +40,9 @@ function App() {
       </div>
 
       <div className="w-5/6 mx-auto">
-        {/* Framer Motion bugs out with About page but is fine with Hero page and Projects page, 
-          will test if it has the same problem when I add Etc. 
-          because both have the same 'container type'*/}
+        {/* I've tested the Etc. section and Framer Motion STILL bugs out with About page 
+          but is fine with Hero, Projects, Etc. and Contact sections.
+          I don't understand why the About section glitches out!!! */}
         <div>
           <About />
         </div>
