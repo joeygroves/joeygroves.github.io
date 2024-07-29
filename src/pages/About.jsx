@@ -57,7 +57,7 @@ const About = () => {
                             I have self-published a collection of poetry and prose, designed streetwear clothing, 
                             and self-produced an album of lo-fi hip-hop beats. While in Japan, I joined the Beatlemania club 
                             and played live shows in Tokyo with a rock band consisting of Japanese students, 
-                            further fueling my love for music and collaboration. 
+                            further fuelling my love for music and collaboration. 
                             <br/>
                             <br/>
                             Let's connect if you have an opportunity in mind, need advice on breaking into programming, 
