@@ -68,14 +68,6 @@ const TechStackIcons = () => {
 
             <div className="flex flex-col justify-center items-center min-w-[48px]">
                 <img 
-                    src="../assets/java.svg"
-                    alt="java"
-                />
-                <p className="mt-1 text-center font-poppins font-light text-grey text-sm md:mb-0 mb-6">Java</p>
-            </div>
-
-            <div className="flex flex-col justify-center items-center min-w-[48px]">
-                <img 
                     src="../assets/sql.svg"
                     alt="sql"
                 />
