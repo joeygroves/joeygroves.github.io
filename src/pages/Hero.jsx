@@ -41,7 +41,7 @@ const Hero = () => {
                         Hello! 👋🏼 I'm Joe
                     </p>
                     <p className="mt-6 mb-7 text-lg text-center text-grey font-poppins font-medium md:text-start">
-                        a Front-End React Developer and University of Leicester Comp Sci graduate.
+                        a Software Engineer and University of Leicester Comp Sci graduate.
                     </p>
                 </motion.div>
 
