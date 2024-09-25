@@ -199,7 +199,7 @@ const Etc = () => {
                         {/* Grooovy x Tangerine Hoodie */}
                         <motion.div variants={projectVariant} className="relative">
                             <a
-                                href="https://www.instagram.com/p/CU-MmtXM1-c/"
+                                href="https://www.instagram.com/p/DAW8OdIoz4x/"
                                 target="_blank"
                                 rel="noreferrer"
                             >
@@ -233,7 +233,7 @@ const Etc = () => {
                         {/* Grooovy x Tangerine Sweatshirt */}
                         <motion.div variants={projectVariant} className="relative">
                             <a
-                                href="https://www.instagram.com/p/CU-McFnstKd/"
+                                href="https://www.instagram.com/p/CIbxGfZHXL6/"
                                 target="_blank"
                                 rel="noreferrer"
                             >
